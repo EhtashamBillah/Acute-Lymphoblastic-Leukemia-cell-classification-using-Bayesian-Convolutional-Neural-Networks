@@ -36,5 +36,5 @@ Each of the models was trained with 50 epochs i.e. we passed the entire training
 through the Network 50 times. Each time the the set of parameters were different since 
 we randomly dropping units from the networks.
 
-During test time, we passthe test data 50 times through the network by keeping the dropout 
+During test time, we passed the test data 50 times through the network by keeping the dropout 
 active and take the average in the end. This is also known as MC dropout [Gal and Ghahramani, 2015].
