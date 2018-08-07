@@ -58,7 +58,6 @@ model_do_3c_5h_1t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -72,7 +71,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
 
 
 validation_datagen <- image_data_generator(
@@ -148,7 +146,6 @@ model_do_3c_5h_2n %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -162,7 +159,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
 
 
 validation_datagen <- image_data_generator(
@@ -184,8 +180,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_2n <- model_do_3c_5h_2n %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -240,7 +235,6 @@ model_do_3c_5h_3r %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -254,8 +248,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -277,8 +269,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_3r <- model_do_3c_5h_3r %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -333,7 +324,6 @@ model_do_3c_5h_4t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -347,8 +337,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -370,8 +358,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_4t <- model_do_3c_5h_4t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -426,7 +413,6 @@ model_do_3c_5h_5t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -440,8 +426,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -463,8 +447,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_5t <- model_do_3c_5h_5t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -519,7 +502,6 @@ model_do_3c_5h_6t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -533,8 +515,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -556,8 +536,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_6t <- model_do_3c_5h_6t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -612,7 +591,6 @@ model_do_3c_5h_7t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -626,8 +604,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -649,8 +625,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_7t <- model_do_3c_5h_7t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -705,7 +680,6 @@ model_do_3c_5h_8t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -719,8 +693,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -742,8 +714,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_8t <- model_do_3c_5h_8t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -798,7 +769,6 @@ model_do_3c_5h_9t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -812,8 +782,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -835,8 +803,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_9t <- model_do_3c_5h_9t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
@@ -891,7 +858,6 @@ model_do_3c_5h_10t %>% compile(
 
 
 #data preprocessing
-
 datagen <- image_data_generator(
   rescale = 1/255,
   validation_split = 0.2
@@ -905,8 +871,6 @@ train_generator <- flow_images_from_directory(
   class_mode = "binary",
   shuffle = TRUE 
 )
-
-
 
 
 validation_datagen <- image_data_generator(
@@ -928,8 +892,7 @@ validation_generator <- flow_images_from_directory(
 history_do_3c_5h_10t <- model_do_3c_5h_10t %>% fit_generator(
   train_generator,
   steps_per_epoch = 10, # training observation/batch size = 200/20
-  epochs = 50,
-  
+  epochs = 50,  
   validation_data = validation_generator,
   validation_steps = 3  # validation observation/batch size = 30/10
 )
