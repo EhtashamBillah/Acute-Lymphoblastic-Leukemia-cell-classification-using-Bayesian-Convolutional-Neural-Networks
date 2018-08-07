@@ -10,7 +10,7 @@ BCNN structure to obtain the Bayesian interpretation.
 
 ---
 
-## 1. Brief Description:
+## 1. Project Description:
 
 During the training phase, we add a dropout layer after each of the convolutional layer as well
 as fully connected layer. For keeping the consistency throughout all experimental models,
