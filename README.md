@@ -21,8 +21,8 @@ We experimented with 3 convolutional layers & 4 hidden layers, 3 convolutional l
 5 hidden layers, 4 convolutional layers & 4 hidden layers, 4 convolutional layers & 5 hidden
 layers, 5 convolutional layers & 1 hidden layer and 5 convolutional layers & 2 hidden layers.
 Note that, low number of convolutional layers increase the number of parameters in the
-network significantly while a high number of hidden layers introduce more parameters in the
-NN.
+networks significantly while a high number of hidden layers introduce more parameters in the
+Networks.
 
 We trained ten different models for each of the network structures that we mentioned
 above e.g. 3 convolutional layers & 4 hidden layers and so on, with the implementation of
