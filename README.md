@@ -38,3 +38,5 @@ we randomly dropping units from the networks.
 
 During test time, we passed the test data 50 times through the network by keeping the dropout 
 active and take the average in the end. This is also known as MC dropout [Gal and Ghahramani, 2015].
+
+--
