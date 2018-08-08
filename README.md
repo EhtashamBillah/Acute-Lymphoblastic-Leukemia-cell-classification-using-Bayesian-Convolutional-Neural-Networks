@@ -13,7 +13,7 @@ BCNN structure to obtain the Bayesian interpretation.
 ## 1. Project Description:
 
 We used the R programming language to implement Bayesian Convolutional Neural Networks in our iamge data. The Integrated
-Development Environment (IDE) we utilized for programming was RStudio. The Deep Learning framework was TensorFlow and The Application Programming Interface
+Development Environment (IDE) we utilized for programming was RStudio. The Deep Learning framework was TensorFlow and the Application Programming Interface
 (API) on top of Tensorflow, was Keras.
 
 
