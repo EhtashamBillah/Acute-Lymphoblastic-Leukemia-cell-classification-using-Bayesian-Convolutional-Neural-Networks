@@ -42,7 +42,7 @@ active and take the average in the end. This is also known as MC dropout [Gal an
 ## 2. Files:
 
 
-a) Model_combined.R file contains all trained models in six different network structures.The network structures we experiemnted with are 3 Convolutional Layers + 4 Hidden Layers, 3 Convolutional Layers + 5 Hidden Layers, 4 Convolutional Layers + 4 Hidden Layers, 4 Convolutional Layers + 5 Hidden Layers, 5 Convolutional Layers + 1 Hidden Layers, 5 Convolutional Layers + 2 Hidden Layers
+a) Model_combined.R file contains all trained models in six different network structures.The network structures we experimented with are 3 Convolutional Layers + 4 Hidden Layers, 3 Convolutional Layers + 5 Hidden Layers, 4 Convolutional Layers + 4 Hidden Layers, 4 Convolutional Layers + 5 Hidden Layers, 5 Convolutional Layers + 1 Hidden Layers, 5 Convolutional Layers + 2 Hidden Layers.
 
 b) Visualization_combined.R contains the visualization of error produced by models during test time, predictive uncertainty  and checking for overfittingness of the models of six network structures.
 
