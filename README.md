@@ -51,7 +51,7 @@ a) Model_combined.R file contains all trained models in six different network st
 
 b) Visualization_combined.R contains the visualization of errors produced by models during test time, predictive uncertainty  and checking for overfittingness of the models of six network structures.
 
-c) Loading_images.R is for how I load the image data into directories. The file path will depend of your local directory.
+c) Loading_images.R is for how we load the image data into directories. The file path will depend of your local directory.
 
 d) Images folder contains some of the images from our experiments.
 
